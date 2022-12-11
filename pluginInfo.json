@@ -1,0 +1,32 @@
+{
+	"repoName": "fpp-schedule-plugin",
+	"name": "Gabe's first plugin",
+	"author": "Gabe H",
+	"description": "This plugin is designed to make an easy to read schedule, so you can see exactly what time songs will play throughout the night",
+	"homeURL": "https://github.com/Gabe-H/fpp-schedule-plugin",
+	"srcURL": "https://github.com/Gabe-H/fpp-schedule-plugin.git",
+	"bugURL": "https://github.com/Gabe-H/fpp-schedule-plugin/issues",
+	"allowUpdates": 1,
+	"versions": [
+		{
+			"minFPPVersion": "2.0",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			    "plugins": [
+					"fpp-plugin-CoolPlugin1",
+					"fpp-plugin-CoolPlugin2"
+				],
+			    "packages": [
+					"system-package-name1",
+					"system-package-name2"
+				],
+				"scripts": [
+					"Control/script-repository-script1",
+					"PixelOverlay/script-repository-script2"
+				]
+			}
+		}
+	]
+}
